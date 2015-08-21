@@ -1,0 +1,152 @@
+		
+		<!-- لم يذكر في المحاضرة_لتحديد اتجاة الكتابة -->
+<html dir="auto">
+
+	<head>
+		
+		<title>الألوان-الحدود-الظلال-التدرجات اللونية</title>
+		
+		<!-- لم يذكر في المحاضرة_ لظهور الكتابات العربية في المتصقح  -->
+		<meta charset="utf-8" />
+		
+		
+		<style>
+			
+			body{
+				width:80%;
+				margin-right:10%;
+			}
+			
+			header{background-color:#3C5A84;}
+			/*or header{background-color:rgb(60,90,132);}*/
+			
+			footer{background-color:rgb(60,90,132);}
+			
+			h1{
+				margin-right:50px;
+				margin-bottom:10px;
+				padding-top:10;
+				font-family:"Fixedsys";
+				color:rgb(255,255,255)
+			}
+			
+			#p-header,#p-footer{
+				margin-right:50px;
+				margin-top:10;
+				padding-bottom:10;
+				padding-top:5px;
+				font-family:"Arabic Typesetting";
+				font-size:25pt;
+				color:#E3EE7F;
+				text-align:center;
+			}		
+			
+
+			#ul-nav{
+				padding:0;
+			}
+			
+			#ul-nav li{
+				display:inline;
+
+			}
+			
+			#ul-nav li a{
+				background-color:#3C5A84;
+				color:white;
+				padding:10px 20px;
+				text-decoration:none;
+				border-radius:4px 4px 0 0;
+			}
+			
+			#ul-nav li a:hover{
+			background-color:#E3EE7F;
+			color:#3C5A84;
+			}
+			
+			#p-body{
+				margin-bottom:15px;
+				padding-right:10px;
+				font-family:"Arabic Typesetting";
+				font-size:30pt;
+				color:#ffffff;
+				
+				/* التدرج اللوني */
+				/*background:linear-gradient(red,white); 
+				الإفتراضي to bottom,*/
+				/*background:linear-gradient(to top,red,white);*/
+				background:linear-gradient(to left,#3C5A84,#ffffff);
+				/* background:linear-gradient(to right,#3C5A84,#ffffff); */
+				
+				/* الحواف الدائرية */
+				/*border-radius:20px;*/  /* قيمة واحدة تؤثر على الأركان الأربعة */
+				/*border-radius:30px 50px;*/  /* قيمتين تؤثر الأولى على الركن العلوي الأيسر ، والركن المقابل له ، وتؤثر القيمة الثانية على الركن العلوي الأيمن وما يقابله */
+				border-radius:5px 5px 0 0;   /* اربع قيم تؤثر كل قيمة على ركن ابتداءًا من الركن العلوي الأيسر ثم العلوي الأيمن ثم السفلي الايمن ثم السفلي الايسر */
+				
+				/* لعمل ظلال */
+				box-shadow:gray 10px 12px 20px;
+				/* يأخذ الظل أربعة قيم: الأولى هي لون الظل ، والثانية هي إزاحة الظل في اتجاه السينات، والثالثة هي إزاحة الظل في اتجاه الصادات، والرابعة هي الضبابية للظل */
+				}	
+			
+			
+			#ul-sayes-abou-math{
+				border:2px #3C5A84 solid;
+				margin-top:0;
+				list-style-type:circle;
+				font-family:"Arabic Typesetting";
+				font-size:20pt;
+				color:#0F1011;
+			}
+			
+		</style>
+		
+	</head>
+
+	<body>
+		
+		<header>
+			<h1>الرياضيات</h1>
+			<p id="p-header">"الفرع الوحيد والأوحد من العلم الذي خدم باقي العلوم وأسهم في تطورهم ولم يسهم أحدهم في تطوره."</p>
+
+		</header>
+		
+		<nav>
+			<ul id="ul-nav">
+				<li>	<a href="#">الرئيسية</a></li>
+				<li><a href="#">شروحات</a></li>
+				<li><a href="#">قوانين</a></li>
+				<li><a href="#">اسأل</a></li>
+				<li><a href="#">عن الموقع</a></li>
+			</ul>
+		</nav>
+		
+		<aside>
+			
+		</aside>
+		
+		<section>
+			<p id="p-body">أقوال مأثورة عن الرياضيات:</p>
+			<ul id="ul-sayes-abou-math">
+				<li> عالم الریاضیات ھو كرجل أعمى یبحث في غرفة مظلمة عن قطة سوداء، والقطة لیست في الغرفة ."تشارلز داروین".</li>
+				<li> الریاضیات كتبت لیفھمھا عالم الریاضیات فقط ."نیكولاس كوبرنیكوس عالم فضاء".</li>
+				<li> تعلمنا الرقم «1»  وبالتالي كان من السھل علینا تعلم الرقم «2» لأن «2=1+1» و لكننا بعد ذلك ، اكتشفنا أن المسألة أكبر من ذلك بكثیر "سیر / آرثر إدینجتون عالم فیزیاء".</li>
+				<li> بقدر ما تشیر الحقائق الریاضیة للواقع بقدر ما تكون غیر مؤكدة، وبقدر ما تكون مؤكدة بقدر ما تكون غیر واقعیة ."ألبرت اینشتاین".</li>
+				<li> قوانین الاحتمال: فعلیة في عمومھا، لا أساس لھا من الصحة في جزئیاتھا ."إدوارد جیبون مؤرخ بریطاني".</li>
+				<li> نحن معشر الریاضیین دائماً ما تجد لدینا مسحة من الجنون ."لیف لاندوا عالم فیزیاء".</li>
+				<li> الریاضیات علم صغیر جداً، بحجم علم النحو بالنسبة للغة ."ارنست مایر عالم أحیاء".</li>
+				<li> تحتوي الریاضیات على كثیر من الأشیاء التي لن یضرك معرفتھا ولا حتى عدم معرفتھا ."جاي.بي.مینكن".</li>
+				<li> الریاضیات ھي محاولة إعطاء نفس الأشیاء مسمیات مختلفة ."جولز ھنري عالم ریاضیات وفیلسوف".</li>
+				<li> في حیاتنا شیئان مھمان: أن نتعلم الریاضیات وأن ندرِس الریاضیات . "سیمون دونیس عالم ریاضیات وفیزیاء".</li>
+				<li>الریاضیات كانت أسوأ المواد التي درستھا. لم یستطع أساتذتي اكتشاف أن إجاباتي كان یقصد بھا السخریة من الأسئلة ."كالفن تریلین كاتب صحفي".</li>
+				<li>من أخطر الكلمات التي یمكنك أن تجدھا في الریاضیات كلمة: واضح ."بیل، غیریك تمبل عالم ومدرس ریاضیات".</li>
+				<li>الریاضیات مثل الزواج، كلاھما یبدأ بفكرة بسیطة في البدایة ولكنھا تتعقد بعد ذلك.</li>
+			</ul>
+		</section>
+		
+		<footer>
+			<p id="p-footer">جميع الحقوق محفوظة</p>
+		</footer>
+		
+	</body>
+	
+</html>
